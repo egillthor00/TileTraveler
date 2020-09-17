@@ -50,14 +50,14 @@ while position != 31:
         travel = travel.lower()
         if travel == "s" or travel == "w":
             if travel == "s":
-                position -=1
+                position -= 1
             elif travel == "w":
                 position -= 10
         else:
             print("not a valid direction!")
 
     elif position == 23:
-        print("You can travel: (N)orth or (S)outh.")
+        print("You can travel: (E)ast or (W)est.")
         travel = input("Direction ")
         travel = travel.lower
         if travel == "e" or travel == "w":
@@ -72,11 +72,11 @@ while position != 31:
         print("You can travel: (S)outh or (W)est.")
         travel = input("Direction ")
         travel = travel.lower()
-        if travel == "s" or travel == "w"
-            if travel == "s"
-            position -=1
-            elif travel == "w"
-            position -=10
+        if travel == "s" or travel == "w":
+            if travel == "s":
+                position -= 1
+            elif travel == "w":
+                position -=1
         
         else:
             print("not a valid direction!")
@@ -86,11 +86,12 @@ while position != 31:
         print("You can travel: (N)orth or (S)outh.")
         travel = input("Direction ")
         travel = travel.lower()
-        if travel == "n" or travel == "s"
-            if travel == "n"
-            position +=1
-            elif travel = "s"
-            position -=1
+        if travel == "n" or travel == "s":
+            if travel == "n":
+                position += 1
+            elif travel == "s":
+                position -= 1
+
         else:
              print("not a valid direction!")
                 
